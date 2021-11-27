@@ -1,0 +1,853 @@
+html{
+max-width: 1500px;
+width: 1500px;
+height: 3632px;
+zoom: 128%;
+}
+
+.container1{
+    position: relative;
+
+height: 3632px;
+left: 0px;
+background: white;
+margin: auto 0;
+
+}
+
+.Navbar{
+position: absolute;
+width: 1500px;
+height: 67px;
+
+top: 0px;
+
+}
+
+.Navlink{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 20px;
+
+position: absolute;
+left: 50.47%;
+right: 16.4%;
+top: 11.94%;
+bottom: 11.94%;
+}
+
+.Navbutt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    
+    position: absolute;
+    left: 84.93%;
+    right: 7.33%;
+    top: 17.91%;
+    bottom: 17.91%;
+    
+    /* Primary text */
+    
+    background: #1D2130;
+    border-radius: 4px;  
+     
+}
+
+.Navbutttext{
+    position: static;
+width: 52px;
+height: 19px;
+right: 32px;
+top: 12px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.Navtxt{
+    position: static;
+width: 57px;
+height: 19px;
+right: 20px;
+top: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Secondary text */
+
+color: black;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.BG{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+backdrop-filter: blur(30px);
+}
+
+.header{
+    position: absolute;
+width: 1500px;
+height: 801px;
+left: 0px;
+top: 13px;
+
+}
+
+.hbuttons{
+    position: absolute;
+width: 312px;
+height: 51px;
+left: 111px;
+top: 474px;
+
+}
+
+
+.secb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    
+    position: absolute;
+    width: 148px;
+    height: 51px;
+    left: 166px;
+    
+    
+    background: #FFFFFF;
+    backdrop-filter: blur(80px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 4px;
+}
+
+.vidb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    
+    position: absolute;
+    width: 140px;
+    height: 48px;
+    
+    }
+.text{
+position: absolute;
+width: 640px;
+height: 231px;
+left: 110px;
+top: 195px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 120%;
+/* or 77px */
+
+color: white;
+text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.bgimage{
+    position: absolute;
+    width: 1500px;
+    height: 735px;
+    left: 0px;
+    top: 67px;
+    
+   
+
+}
+
+.wwd{
+    position: absolute;
+    width: 1500px;
+    height: 901px;
+    left: 0px;
+    top: 1628.36px;   
+    background-color:  #EFF7F2;
+}
+
+.wwdtext{
+    position: absolute;
+width: 608px;
+height: 184px;
+left: 156px;
+top:  158px;
+
+}
+
+.wwdtextt{
+    position: absolute;
+width: 608px;
+height: 116px;
+
+
+/* H2 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+
+/* Primary text */
+
+color: #1D2130;
+}
+
+.wwdtextp{
+    position: absolute;
+width: 608px;
+height: 52px;
+
+
+/* Paragraph */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Secondary text */
+
+color: #525560;
+
+}
+
+.wwd-img{
+    position: absolute;
+width: 480px;
+height: 658px;
+left: 910px;
+top: 138px;
+
+
+border-radius: 12px;
+}
+
+.wwd-funcs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 460px;
+    height: 442px;
+    left: 143px;
+    top: 378px;
+}
+
+.wwd-func{
+    position: static;
+width: 436px;
+height: 88px;
+
+
+}
+
+.wwd-func-title{
+    position: absolute;
+width: 212px;
+height: 28px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+/* Primary text */
+
+color: #1D2130;
+}
+
+.wwd-func-txt{
+    position: absolute;
+width: 384px;
+height: 52px;
+
+
+/* Paragraph */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Secondary text */
+
+color: #525560;
+}
+
+.mat{
+    position: absolute;
+width: 1500px;
+height: 711.64px;
+left: 0px;
+top: 2532px;
+
+}
+
+.mat-tit{
+    position: absolute;
+width: 19px;
+height: 334px;
+top: 38px;
+left: 34px;
+
+}
+
+.mat-tit-txt{
+    position: absolute;
+width: 238px;
+height: 19px;
+top: -7px;
+left: 34px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+/* Primary text */
+
+color: #1D2130;
+}
+
+.mat-txt{
+    position: absolute;
+width: 640px;
+height: 174px;
+
+top: 44px;
+left: 59px;
+/* H2 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+
+/* Primary text */
+
+color: #1D2130;
+}
+
+.mat-row{
+ display: flex;
+ flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 1280px;
+    height: 421px;
+    left: 53px;
+    top: 189px;
+}
+
+.mat-row-proj{
+    display: flex;
+ flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    
+width: 411px;
+height: 421px;
+left: 32px;
+top: 54px;
+
+}
+
+
+.content{
+ 
+    position: static;
+width: 315px;
+height: 293px;
+left: -84px;
+top: -2772px;
+
+}
+
+.content-txt{
+    position: static;
+width: 291px;
+height: 84px;
+left: 33px;
+top: 35px;
+
+/* H3 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 150%;
+/* or 42px */
+
+
+color:white;
+text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.content-txt-pod{
+    position:  static;
+width: 315px;
+height: 78px;
+
+/* Paragraph */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+color: white;
+text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.mat-proj-img{
+   position: static ;
+width: 411px;
+height: 421px;
+left: 545px;
+top: 2974px; 
+border-radius: 70px;
+}
+
+.mat-imgs{
+    display: flex;
+    flex-direction: row;
+       justify-content: space-between;
+       position: absolute;
+       width: 411px;
+       height: 421px;
+       left: 33px;
+       top: 154px; 
+}
+
+.bgimg-mat{
+    width: 1500px;
+height: 711.64px;
+}
+
+
+.kau{
+    position: absolute;
+width: 1500px;
+height: 815px;
+left: 0px;
+top: 815px;
+
+}
+
+.kau-bgm{
+    position: absolute;
+    width: 1500px;
+    height: 815px;
+   
+
+}
+
+.kau-top{
+    position: absolute;
+width: 1280px;
+height: 578.34px;
+
+}
+
+.kau-top-text{
+    position: absolute;
+    width: 704px;
+    height: 454px;
+    left: 1px;
+    top: 104px;
+}
+
+.kau-top-text-title{
+    position: absolute;
+width: 607px;
+height: 116px;
+left: 105px;
+top: 0px;
+
+/* H2 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+
+/* Primary text */
+
+color: goldenrod;
+}
+
+.kau-top-text-pod{
+    position: absolute;
+    width: 608px;
+    height: 156px;
+    left: -2px;
+    top: 121px;
+    
+    /* Paragraph */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    
+    /* Secondary text */
+    
+    color: goldenrod;
+}
+
+.kau-butt{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+
+position: absolute;
+width: 146px;
+height: 51px;
+left: 118px;
+top: 442px;
+
+/* Green primary */
+
+background:goldenrod;
+backdrop-filter: blur(80px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 4px;
+}
+
+.kau-vid{
+    position: absolute;
+width: 480px;
+height: 578.34px;
+left: 877px;
+top: 92px;
+
+}
+
+.kau-vid-bgm{
+    position: absolute;
+width: 480px;
+height: 578.34px;
+
+
+
+border-radius: 12px;
+}
+
+.vid-play{
+    position: absolute;
+    width: 64px;
+height: 64px;
+left: 206px;
+top: 236px;
+}
+
+.foot{
+    position: absolute;
+    width: 1500px;
+    height: 402px;
+    background-color: black;
+    left: 0px;
+    top: 3239px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+left: 22.47%;
+right: 53.13%;
+top: 23.88%;
+bottom: 23.88%;
+
+}
+
+.links-colum{
+    display: flex;
+    position: static;
+    flex-direction: column;
+  
+    width: 100px;
+    left: 22.47%;
+    right: 72.6%;
+    top: 23.88%;
+    bottom: 23.88%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.txt14{
+    position: static;
+ 
+    
+    
+    /* H3 */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: grey;
+}
+
+
+.form1{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    left: 56.4%;
+    right: 7.33%;
+    top: 23.88%;
+    bottom: 24.38%;
+    color: white;
+}
+
+.form-poisk{
+    position: absolute;
+left: 56.4%;
+right: 7.33%;
+top: 59.7%;
+bottom: 24.38%;
+}
+
+
+.footbutt{
+
+        padding: 12px 32px;
+        
+        position: absolute;
+      
+    left: -2px;
+    top: 32px;
+        
+        /* Primary text */
+        
+        background: #1D2130;
+        border-radius: 4px;  
+          
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    top: 11px;
+    left: 12px;
+    position: absolute;
+}
+
+.flogo{
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+/*  вон та самая кнопка*/
+
+.open{
+    display: block;
+    width: 200px;
+    height: 50px;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin:5px auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: red;
+    cursor: pointer;
+}
+
+.animate{
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+
+
+
+
+/*  */
+
+
+/* адаптивность */
+
+@media all and (max-width: 480px) {
+  
+    
+    html{
+    
+        
+        zoom: 22%;
+    }
+
+    .mat{
+    width: 500px;
+    
+    
+    }
+
+
+
+ }
